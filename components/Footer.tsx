@@ -5,7 +5,7 @@ export default function Footer() {
     <footer id="contact">
       <div className="wrap">
         <div className="footer-grid">
-          <h2>Great things are built together.<br />Let&apos;s connect.</h2>
+          <h2><i>"Great things are built together."</i><br />Let&apos;s connect !</h2>
           <div className="footer-links">
             <a className="footer-icon-link" href="mailto:om.badade@gmail.com" aria-label="Email Om Badade" title="Email">
               <img src="/Mail Logo.png" alt="" width={30} height={30} />
@@ -26,6 +26,6 @@ export default function Footer() {
           <span>Product-minded builder and operator</span>
         </div>
       </div>
-    </footer>
+    </footer >
   );
 }
