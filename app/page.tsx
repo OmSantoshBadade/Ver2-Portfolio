@@ -142,7 +142,7 @@ export default function Home() {
               <div className="fact-row"><span className="k">Studying</span><span className="v">B.E. ECS, VIT</span></div>
               <div className="fact-row"><span className="k">Graduating</span><span className="v">Jun 2026</span></div>
               <div className="fact-row"><span className="k">Recent role</span><span className="v">BA Intern, BPCL</span></div>
-              <div className="fact-row"><span className="k">Core strengths</span><span className="v">Strategy · Ops · Tech</span></div>
+              <div className="fact-row"><span className="k">Core strengths</span><span className="v">Analysis · Product · Tech</span></div>
               <div className="fact-row"><span className="k">Built with</span><span className="v">Python · React · SQL</span></div>
             </div>
           </div>
