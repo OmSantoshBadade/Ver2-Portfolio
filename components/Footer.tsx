@@ -5,7 +5,7 @@ export default function Footer() {
     <footer id="contact">
       <div className="wrap">
         <div className="footer-grid">
-          <h2><i>"Great things are built together."</i><br />Let&apos;s connect !</h2>
+          <h2><i>&ldquo;Great things are built together.&rdquo;</i><br />Let&apos;s connect !</h2>
           <div className="footer-links">
             <a className="footer-icon-link" href="mailto:om.badade@gmail.com" aria-label="Email Om Badade" title="Email">
               <img src="/Mail Logo.png" alt="" width={30} height={30} />

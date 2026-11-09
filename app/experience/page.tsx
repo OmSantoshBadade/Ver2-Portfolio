@@ -1,4 +1,3 @@
-import { Underline } from "lucide-react";
 import Image from "next/image";
 
 export default function ExperiencePage() {
@@ -7,7 +6,7 @@ export default function ExperiencePage() {
       <div className="wrap">
         <div className="sec-head" style={{ marginBottom: "60px" }}>
           <span className="sec-tag">EXPERIENCE</span>
-          <h2>Where I've worked & led</h2>
+          <h2>Where I&apos;ve worked &amp; led</h2>
           <p style={{ color: "var(--text-muted)", maxWidth: "600px" }}>
             A snapshot of my journey across product, analytics and leadership roles.
           </p>
@@ -39,7 +38,7 @@ export default function ExperiencePage() {
               <h3>Web Development Intern</h3>
               <div className="t-org"><strong>Suvidha Foundation</strong></div>
               <ul>
-                <li>Enabled a pilot of <strong>100+</strong> student profiles and <strong>10+</strong> organization accounts by building and in tegrating <strong>RESTful APIs</strong> in Flask + MySQL.</li>
+                <li>Enabled a pilot of <strong>100+</strong> student profiles and <strong>10+</strong> organization accounts by building and integrating <strong>RESTful APIs</strong> in Flask + MySQL.</li>
                 <li>Secured <strong>110+</strong> accounts on an internship discovery platform by implementing authentication and role-based access control across 2–3 user roles, with 0 access issues during the pilot.</li>
               </ul>
             </div>
@@ -71,7 +70,7 @@ export default function ExperiencePage() {
               <h3>Events Core</h3>
               <div className="t-org"><strong>Student Council, VIT</strong></div>
               <ul>
-                <li>Organized and managed multiple high-footfall events including <strong>War of DJ</strong> and <strong>Musical Band Competition</strong> featuring inter-band student performances for the institute's flagship cultural fest, <strong>VERVE</strong>.</li>
+                <li>Organized and managed multiple high-footfall events including <strong>War of DJ</strong> and <strong>Musical Band Competition</strong> featuring inter-band student performances for the institute&apos;s flagship cultural fest, <strong>VERVE</strong>.</li>
               </ul>
             </div>
           </div>

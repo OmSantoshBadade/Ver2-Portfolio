@@ -119,7 +119,7 @@ export default function Home() {
             <div>
               <p>
                 I&apos;m a graduate student with a B.E. in Electronics &amp; Computer Science at Vidyalankar Institute of Technology, Mumbai,
-                with a path that's become increasingly product-focused. I started with code, moved into
+                with a path that&apos;s become increasingly product-focused. I started with code, moved into
                 analytics and business problem-solving, and began asking not just “can this be built?” but “why does it matter, and who does it help?”
 
               </p>
@@ -268,7 +268,7 @@ export default function Home() {
         <div className="wrap">
           <div className="sec-head reveal" style={{ marginBottom: "20px" }}>
             <span className="sec-tag">05 · EXPERIENCE</span>
-            <h2>Where I've worked & led</h2>
+            <h2>Where I&apos;ve worked &amp; led</h2>
             <p style={{ color: "var(--text-muted)", maxWidth: "600px" }}>
               A snapshot of my journey across product, analytics and leadership roles.
             </p>

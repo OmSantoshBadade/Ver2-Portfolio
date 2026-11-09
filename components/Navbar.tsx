@@ -6,19 +6,13 @@ import { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
 
 export default function Navbar() {
-  const [theme, setTheme] = useState<"light" | "dark">("dark");
-  const pathname = usePathname();
-
-  useEffect(() => {
+  const [theme, setTheme] = useState<"light" | "dark">(() => {
+    if (typeof window === "undefined") return "dark";
     const stored = localStorage.getItem("portfolio-theme");
-    const resolved: "light" | "dark" =
-      stored === "light" || stored === "dark"
-        ? stored
-        : window.matchMedia("(prefers-color-scheme: light)").matches
-        ? "light"
-        : "dark";
-    setTheme(resolved);
-  }, []);
+    if (stored === "light" || stored === "dark") return stored;
+    return window.matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+  });
+  const pathname = usePathname();
 
   useEffect(() => {
     document.documentElement.setAttribute("data-theme", theme);
@@ -48,8 +42,8 @@ export default function Navbar() {
 
         <nav className="links" aria-label="Main navigation">
           {navLinks.map((link) => (
-            <Link 
-              key={link.name} 
+            <Link
+              key={link.name}
               href={link.path}
               className={pathname === link.path ? "active" : ""}
             >

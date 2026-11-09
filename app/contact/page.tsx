@@ -4,7 +4,7 @@ export default function ContactPage() {
       <div className="wrap" style={{ minHeight: "70vh", display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "flex-start" }}>
         <div className="sec-head" style={{ marginBottom: "50px" }}>
           <span className="sec-tag">CONNECT</span>
-          <h2 style={{ fontSize: "3.5rem", margin: "10px 0", background: "linear-gradient(135deg, var(--accent), var(--accent-3))", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Let's Talk</h2>
+          <h2 style={{ fontSize: "3.5rem", margin: "10px 0", background: "linear-gradient(135deg, var(--accent), var(--accent-3))", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>Let&apos;s Talk</h2>
           <p style={{ color: "var(--text-dim)", maxWidth: "600px", fontSize: "1.1rem", lineHeight: "1.6" }}>
             Great things are built together. Whether you want to discuss product strategy, analytics, or a new opportunity, my inbox is always open.
           </p>
@@ -26,7 +26,7 @@ export default function ContactPage() {
           <a href="https://linkedin.com/in/ombadade234" target="_blank" rel="noopener noreferrer" className="fact-card hover-lift" style={{ textDecoration: "none", display: "flex", flexDirection: "column", alignItems: "center", padding: "30px", transition: "transform 0.2s" }}>
             <img src="/linkedin logo.png" alt="LinkedIn" style={{ width: 24, height: 24, marginBottom: "10px" }} />
             <span style={{ fontWeight: "600", color: "var(--text)", marginBottom: "4px" }}>LinkedIn</span>
-            <span style={{ color: "var(--text-muted)", fontSize: "0.9rem" }}>Let's connect</span>
+            <span style={{ color: "var(--text-muted)", fontSize: "0.9rem" }}>Let&apos;s connect</span>
           </a>
 
           <a href="https://github.com/OmSantoshBadade" target="_blank" rel="noopener noreferrer" className="fact-card hover-lift" style={{ textDecoration: "none", display: "flex", flexDirection: "column", alignItems: "center", padding: "30px", transition: "transform 0.2s" }}>
